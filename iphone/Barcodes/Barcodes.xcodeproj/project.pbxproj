@@ -564,6 +564,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jared Goldberg (CL7V758EPB)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -571,11 +572,13 @@
 				GCC_PREFIX_HEADER = Barcodes_Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = NO;
 				INFOPLIST_FILE = "Barcodes-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-Objc",
 				);
 				PRODUCT_NAME = Barcodes;
+				PROVISIONING_PROFILE = "5548A1B9-8962-455A-89EE-AFA78BC61CEE";
 			};
 			name = Debug;
 		};
@@ -583,18 +586,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jared Goldberg (CL7V758EPB)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Barcodes_Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = NO;
 				INFOPLIST_FILE = "Barcodes-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-Objc",
 				);
 				PRODUCT_NAME = Barcodes;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "5548A1B9-8962-455A-89EE-AFA78BC61CEE";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -607,7 +611,7 @@
 					armv6,
 					armv7,
 				);
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jared Goldberg (CL7V758EPB)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = NO;
 				GCC_VERSION = "";
@@ -619,7 +623,7 @@
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "5548A1B9-8962-455A-89EE-AFA78BC61CEE";
 				SDKROOT = iphoneos;
 			};
 			name = Distribution;
@@ -628,16 +632,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jared Goldberg (CL7V758EPB)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Barcodes_Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = NO;
 				INFOPLIST_FILE = "Barcodes-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-Objc",
 				);
 				PRODUCT_NAME = Barcodes;
+				PROVISIONING_PROFILE = "5548A1B9-8962-455A-89EE-AFA78BC61CEE";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Distribution;
@@ -650,7 +657,7 @@
 					armv6,
 					armv7,
 				);
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jared Goldberg (CL7V758EPB)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = NO;
@@ -662,7 +669,7 @@
 					"../ZXingWidget/Classes/**",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "5548A1B9-8962-455A-89EE-AFA78BC61CEE";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -675,7 +682,7 @@
 					armv6,
 					armv7,
 				);
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jared Goldberg (CL7V758EPB)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = NO;
 				GCC_VERSION = "";
@@ -687,7 +694,7 @@
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "5548A1B9-8962-455A-89EE-AFA78BC61CEE";
 				SDKROOT = iphoneos;
 			};
 			name = Release;

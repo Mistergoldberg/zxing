@@ -47,5 +47,7 @@
 	</array>
 	<key>UIStatusBarHidden</key>
 	<false/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array/>
 </dict>
 </plist>
